@@ -3,6 +3,7 @@ CyberArk Privileged Access Lab
 Hands-on CyberArk Privileged Access Management (PAM) lab built in a virtualized environment using VMware Workstation.
 This project simulates a real enterprise PAM deployment including Active Directory, Vault, PVWA, CPM, and PSM.
 
+
 Overview
 
 This lab demonstrates the complete installation, configuration, and validation of a CyberArk PAM environment:
@@ -21,6 +22,7 @@ Network connectivity, DNS, and domain integration
 
 Safe creation and basic PAM workflows
 
+
 VM Network (10.0.0.0/24)
 │
 ├── Active Directory Domain Controller (10.0.0.10)
@@ -32,6 +34,8 @@ VM Network (10.0.0.0/24)
 │     ├── PVWA Frontend
 │     ├── CPM Account Management
 │     └── PSM Session Broker
+
+
 
 Technologies Used
 
@@ -50,7 +54,11 @@ PSM
 DNS / AD DS
 
 PowerShell automation modules
+
+
+
 Lab Steps Completed
+
 ✔️ 1. Built VM Network
 
 Created NAT/Host-only network
@@ -105,6 +113,8 @@ Configured permissions
 
 Began onboarding workflow
 
+
+
 Key Skills Demonstrated
 
 Identity & Access Management (IAM)
@@ -120,6 +130,8 @@ PowerShell-driven installations
 Active Directory administration
 
 Secure architecture design
+
+
 
 Why This Project Matters
 
